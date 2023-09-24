@@ -1,0 +1,22 @@
+Fontes :
+font-family: 'Fraunces', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Code Pro', monospace;
+
+Cores:
+Roxo : #7843E9
+Preto : #000000
+Preto/sinza : #111111
+Branco/sinza : #FAFAFA
+
+Cor do scroll: #161C3B
+
+
+Icone do GitHub: <i class="bi bi-github"></i>
+Icone do Linkedin : <i class="bi bi-linkedin"></i>
+Icone do Whatsapp: <i class="bi bi-whatsapp"></i>
+
+
+

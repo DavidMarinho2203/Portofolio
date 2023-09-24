@@ -1,0 +1,55 @@
+.containerChamarnoPrivado{
+    width: 100%;
+    background-color: #FAFAFA;
+    font-family: 'Source Code Pro', monospace;
+    padding: 50px;
+}
+
+.sectionChamarnoPrivado{
+    width: 80vw;
+    height: 30vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+
+.containerChamarnoPrivado>.sectionChamarnoPrivado>h3{
+    width: 50%;
+    margin: 20px  0;
+    font-size: 22px;
+}
+
+.containerChamarnoPrivado>.sectionChamarnoPrivado>p{
+    width: 50%;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+.containerChamarnoPrivado>.sectionChamarnoPrivado>a{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #7843E9;
+    color: #7843E9;
+    border-radius: 25px;
+    padding: 8px 15px;
+    text-decoration: none;
+    background-color: #FAFAFA;
+}
+
+.containerChamarnoPrivado>.sectionChamarnoPrivado>a>p{
+    margin-left: 10px;
+}
+
+.containerChamarnoPrivado>.sectionChamarnoPrivado>a:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #7843E9;
+    transition: color 0.5s ease-in-out , background-color 0.5s ease-in-out;
+}

@@ -1,0 +1,72 @@
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+header>.areaTopo {
+    width: 90vw;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>.areaTopo>.areaLogo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+}
+
+header>.areaTopo>.areaLogo>img {
+    height: 100%;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+header>.areaTopo>.areaLogo>a {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+header>.areaTopo>.areaLogo>a:hover {
+    color: #7843E9;
+    transition: color 0.2s ease-in-out;
+}
+
+
+header>.areaTopo>.areaMenu {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-right: 50px;
+}
+
+header>.areaTopo>.areaMenu>.menuLink {
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+header>.areaTopo>.areaMenu>.menuLink:hover {
+    color: #7843E9;
+    transition: color 0.2s ease-in-out;
+}

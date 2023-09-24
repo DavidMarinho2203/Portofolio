@@ -1,0 +1,592 @@
+/* Typical Device Breakpoints 
+------------------------------
+
+Pequenas telas: até 600px
+Celulares: 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grande telas: acima de 1200px
+*/
+
+/* Pequenas telas: até 600px */
+@media screen and (max-width: 600px) {
+    .sectionProjetos {
+        width: 100%;
+        height: 100%;
+        font-family: 'Source Code Pro', monospace;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px 0;
+        box-shadow: 5px 5px 30px #00000046;
+    }
+
+    .sectionProjetos>.conteudo>h2 {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 10px;
+        font-weight: 800;
+    }
+
+
+    .sectionProjetos>.conteudo>.traco {
+        width: 10vw;
+        height: 5px;
+        background-color: #7843E9;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .sectionProjetos>.conteudo>p {
+        margin: 0 auto 10px;
+        width: 90%;
+        line-height: 16px;
+        font-size: 12px;
+    }
+
+    .sectionProjetos>.tamanhoCard {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards {
+        width: calc(100% / 300px -20px);
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        column-gap: 10pxpx;
+        row-gap: 10px;
+        padding: 0px;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.projeto1, .sectionProjetos>.tamanhoCard>.cards>.projeto2 {
+        width: 100%;
+        height: 100%;
+        background-image: url(/src//assets/projeto1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.projeto1 {
+        background-image: url(/src//assets/projeto1.png);
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.projeto2 {
+        background-image: url(/src//assets/projeto2.png);
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.card {
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .sectionProjetos>.tamanhoCard>.cards>.card>.descricao {
+        width: 100%;
+        height: 100%;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.card>.descricao>p {
+        width: 80%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.card>.descricao>a {
+        margin-top: 20px;
+        width: 70%;
+        text-align: center;
+        padding: 5px 15px;
+    }
+
+    .sectionProjetos>p {
+        font-size: 12px;
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+}
+
+/* Celulares: 600px até 768px */
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .sectionProjetos {
+        width: 100%;
+        height: 100%;
+        font-family: 'Source Code Pro', monospace;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px 0;
+        box-shadow: 5px 5px 30px #00000046;
+    }
+
+    .sectionProjetos>.conteudo>h2 {
+        width: 100%;
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 10px;
+        font-weight: 800;
+    }
+
+
+    .sectionProjetos>.conteudo>.traco {
+        width: 5vw;
+        height: 5px;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .sectionProjetos>.conteudo>p {
+        font-size: 12px;
+        margin: 0 auto 10px;
+        width: 60%;
+        line-height: 20px;
+    }
+
+    .sectionProjetos>.tamanhoCard {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards {
+        width: calc(100% / 300px -20px);
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        column-gap: 10pxpx;
+        row-gap: 10px;
+        padding: 0px;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.projeto1, .sectionProjetos>.tamanhoCard>.cards>.projeto2 {
+        width: 100%;
+        height: 100%;
+        background-image: url(/src//assets/projeto1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.projeto1 {
+        background-image: url(/src//assets/projeto1.png);
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.projeto2 {
+        background-image: url(/src//assets/projeto2.png);
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.card {
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .sectionProjetos>.tamanhoCard>.cards>.card>.descricao {
+        width: 100%;
+        height: 100%;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.card>.descricao>p {
+        width: 80%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.card>.descricao>a {
+        margin-top: 20px;
+        width: 70%;
+        text-align: center;
+        padding: 5px 15px;
+    }
+
+    .sectionProjetos>p {
+        font-size: 12px;
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Tablet: 768px até 992px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .sectionProjetos {
+        width: 100%;
+        height: 100%;
+        font-family: 'Source Code Pro', monospace;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px 0;
+        box-shadow: 5px 5px 30px #00000046;
+    }
+
+    .sectionProjetos>.conteudo>h2 {
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 10px;
+        font-weight: 800;
+    }
+
+
+    .sectionProjetos>.conteudo>.traco {
+        width: 5vw;
+        height: 5px;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .sectionProjetos>.conteudo>p {
+        font-size: 14px;
+        margin: 0 auto 10px;
+        width: 50%;
+        line-height: 24px;
+    }
+
+    .sectionProjetos>.tamanhoCard {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards {
+        width: calc(100% / 300px -20px);
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        column-gap: 10pxpx;
+        row-gap: 10px;
+        padding: 0px;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.projeto1, .sectionProjetos>.tamanhoCard>.cards>.projeto2 {
+        width: 100%;
+        height: 100%;
+        background-image: url(/src//assets/projeto1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.projeto1 {
+        background-image: url(/src//assets/projeto1.png);
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.projeto2 {
+        background-image: url(/src//assets/projeto2.png);
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.card {
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .sectionProjetos>.tamanhoCard>.cards>.card>.descricao {
+        width: 100%;
+        height: 100%;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.card>.descricao>p {
+        width: 80%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.card>.descricao>a {
+        margin-top: 20px;
+        width: 70%;
+        text-align: center;
+        padding: 5px 15px;
+    }
+
+    .sectionProjetos>p {
+        font-size: 14px;
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Desktop: 992px até 1200px */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .sectionProjetos {
+        width: 100%;
+        height: 100%;
+        font-family: 'Source Code Pro', monospace;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px 0;
+        box-shadow: 5px 5px 30px #00000046;
+    }
+
+    .sectionProjetos>.conteudo>h2 {
+        width: 100%;
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 10px;
+        font-weight: 800;
+    }
+
+
+    .sectionProjetos>.conteudo>.traco {
+        width: 4vw;
+        height: 5px;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .sectionProjetos>.conteudo>p {
+        font-size: 15px;
+        margin: 0 auto 10px;
+        width: 50%;
+        line-height: 26px;
+    }
+
+    .sectionProjetos>.tamanhoCard {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards {
+        width: calc(100% / 300px -20px);
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        column-gap: 10pxpx;
+        row-gap: 10px;
+        padding: 0px;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.projeto1, .sectionProjetos>.tamanhoCard>.cards>.projeto2 {
+        width: 100%;
+        height: 100%;
+        background-image: url(/src//assets/projeto1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.projeto1 {
+        background-image: url(/src//assets/projeto1.png);
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.projeto2 {
+        background-image: url(/src//assets/projeto2.png);
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.card {
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .sectionProjetos>.tamanhoCard>.cards>.card>.descricao {
+        width: 100%;
+        height: 100%;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.card>.descricao>p {
+        width: 80%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.card>.descricao>a {
+        margin-top: 20px;
+        width: 70%;
+        text-align: center;
+        padding: 5px 15px;
+    }
+
+    .sectionProjetos>p {
+        font-size: 15px;
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Grande telas: acima de 1200px */
+@media screen and (min-width: 1200px) {
+    .sectionProjetos {
+        width: 100%;
+        height: 100%;
+        font-family: 'Source Code Pro', monospace;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px 0;
+        box-shadow: 5px 5px 30px #00000046;
+    }
+
+    .sectionProjetos>.conteudo>h2 {
+        width: 100%;
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 10px;
+        font-weight: 800;
+    }
+
+
+    .sectionProjetos>.conteudo>.traco {
+        width: 3vw;
+        height: 5px;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .sectionProjetos>.conteudo>p {
+        font-size: 15px;
+        margin: 0 auto 10px;
+        width: 50%;
+        line-height: 30px;
+    }
+
+    .sectionProjetos>.tamanhoCard {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards {
+        width: calc(100% / 300px -20px);
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        column-gap: 10pxpx;
+        row-gap: 10px;
+        padding: 0px;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.projeto1, .sectionProjetos>.tamanhoCard>.cards>.projeto2 {
+        width: 100%;
+        height: 100%;
+        background-image: url(/src//assets/projeto1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.projeto1 {
+        background-image: url(/src//assets/projeto1.png);
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.projeto2 {
+        background-image: url(/src//assets/projeto2.png);
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.card {
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .sectionProjetos>.tamanhoCard>.cards>.card>.descricao {
+        width: 100%;
+        height: 100%;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.card>.descricao>p {
+        width: 80%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .sectionProjetos>.tamanhoCard>.cards>.card>.descricao>a {
+        margin-top: 20px;
+        width: 70%;
+        text-align: center;
+        padding: 5px 15px;
+    }
+
+    .sectionProjetos>p {
+        font-size: 15px;
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

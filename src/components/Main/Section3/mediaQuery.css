@@ -1,0 +1,441 @@
+/* Typical Device Breakpoints 
+------------------------------
+
+Pequenas telas: até 600px
+Celulares: 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grande telas: acima de 1200px
+*/
+
+/* Pequenas telas: até 600px */
+@media screen and (max-width: 600px) {
+    .Section3 {
+        width: 100%;
+    }
+
+    .sectionMeConhecer {
+        width: 100vw;
+        height: 100%;
+        padding: 0px 0;
+        margin: 0px auto 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sectionMeConhecer>.MeConhecer {
+        width: 90%;
+        height: 100%;
+        padding-left: 0;
+        margin-right: 0px;
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+    }
+
+    .sectionMeConhecer>.MeConhecer>h3 {
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .sectionMeConhecer>.MeConhecer>p {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 30px;
+        letter-spacing: 0px;
+    }
+
+    .sectionMeConhecer>.MeConhecer>a {
+        font-size: 12px;
+        padding: 10px 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    /*******************************************************/
+    .sectionMeConhecer>.MinhasHabilidades {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>h3 {
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        row-gap: 5px;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>ul>li {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>ul>li>a {
+        padding: 5px 8px;
+        margin-right: 20px;
+    }
+}
+
+/* Celulares: 600px até 768px */
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .Section3 {
+        width: 100%;
+    }
+
+    .sectionMeConhecer {
+        width: 100vw;
+        height: 100%;
+        padding: 0px 0;
+        margin: 0px auto 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sectionMeConhecer>.MeConhecer {
+        width: 60%;
+        height: 100%;
+        padding-left: 0;
+        margin-right: 0px;
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+    }
+
+    .sectionMeConhecer>.MeConhecer>h3 {
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .sectionMeConhecer>.MeConhecer>p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 30px;
+        letter-spacing: 0px;
+    }
+
+    .sectionMeConhecer>.MeConhecer>a {
+        font-size: 12px;
+        padding: 10px 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    /*******************************************************/
+    .sectionMeConhecer>.MinhasHabilidades {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>h3 {
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        row-gap: 5px;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>ul>li {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>ul>li>a {
+        padding: 5px 8px;
+        margin-right: 20px;
+    }
+}
+
+/* Tablet: 768px até 992px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .Section3 {
+        width: 100%;
+    }
+
+    .sectionMeConhecer {
+        width: 90%;
+        height: 90%;
+        padding: 0px 0;
+        margin: 0px auto 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .sectionMeConhecer>.MeConhecer {
+        width: 50%;
+        height: 100%;
+        padding-left: 0;
+        margin-right: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 0px;
+    }
+
+    .sectionMeConhecer>.MeConhecer>h3 {
+        width: 100%;
+        font-size: 22px;
+        margin-bottom: 20px;
+        text-align: start;
+    }
+
+    .sectionMeConhecer>.MeConhecer>p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 25px;
+        letter-spacing: 0px;
+        text-align: start;
+    }
+
+    .sectionMeConhecer>.MeConhecer>a {
+        text-align: start;
+        font-size: 12px;
+        padding: 10px 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    /*******************************************************/
+    .sectionMeConhecer>.MinhasHabilidades {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>h3 {
+        width: 100%;
+        font-size: 22px;
+        margin-bottom: 20px;
+        text-align: start;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        row-gap: 5px;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>ul>li {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>ul>li>a {
+        padding: 5px 8px;
+        margin-right: 20px;
+    }
+}
+
+/* Desktop: 992px até 1200px */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .Section3 {
+        width: 100%;
+    }
+
+    .sectionMeConhecer {
+        width: 90%;
+        height: 90%;
+        padding: 0px 0;
+        margin: 0px auto 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .sectionMeConhecer>.MeConhecer {
+        width: 50%;
+        height: 100%;
+        padding-left: 0;
+        margin-right: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 0px;
+    }
+
+    .sectionMeConhecer>.MeConhecer>h3 {
+        width: 100%;
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: start;
+    }
+
+    .sectionMeConhecer>.MeConhecer>p {
+        font-size: 15px;
+        line-height: 26px;
+        margin-bottom: 20px;
+        letter-spacing: 0px;
+        text-align: start;
+    }
+
+    .sectionMeConhecer>.MeConhecer>a {
+        text-align: start;
+        font-size: 12px;
+        padding: 10px 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    /*******************************************************/
+    .sectionMeConhecer>.MinhasHabilidades {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>h3 {
+        width: 100%;
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: start;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        row-gap: 5px;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>ul>li {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>ul>li>a {
+        padding: 5px 8px;
+        margin-right: 20px;
+    }
+}
+
+/* Grande telas: acima de 1200px */
+@media screen and (min-width: 1200px) {
+    .Section3 {
+        width: 100%;
+    }
+
+    .sectionMeConhecer {
+        width: 90%;
+        height: 90%;
+        padding: 0px 0;
+        margin: 0px auto 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .sectionMeConhecer>.MeConhecer {
+        width: 50%;
+        height: 100%;
+        padding-left: 0;
+        margin-right: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 0px;
+    }
+
+    .sectionMeConhecer>.MeConhecer>h3 {
+        width: 100%;
+        font-size: 28px;
+        margin-bottom: 20px;
+        text-align: start;
+    }
+
+    .sectionMeConhecer>.MeConhecer>p {
+        font-size: 15px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        letter-spacing: 0px;
+        text-align: start;
+    }
+
+    .sectionMeConhecer>.MeConhecer>a {
+        text-align: start;
+        font-size: 12px;
+        padding: 10px 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    /*******************************************************/
+    .sectionMeConhecer>.MinhasHabilidades {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>h3 {
+        width: 100%;
+        font-size: 28px;
+        margin-bottom: 20px;
+        text-align: start;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        row-gap: 5px;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>ul>li {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+
+    .sectionMeConhecer>.MinhasHabilidades>ul>li>a {
+        padding: 5px 8px;
+        margin-right: 20px;
+    }
+}

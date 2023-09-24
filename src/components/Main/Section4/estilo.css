@@ -1,0 +1,143 @@
+.sectionProjetos {
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+
+    padding: 60px 0;
+}
+
+.sectionProjetos>.conteudo>h2{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+
+.sectionProjetos>.conteudo>.traco {
+    width: 3vw;
+    height: 5px;
+    background-color: #7843E9;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.sectionProjetos>.conteudo>p{
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.sectionProjetos>.tamanhoCard{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.sectionProjetos>.tamanhoCard>.cards{
+    width: calc(100% / 300px  -20px);
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 10px;
+    padding: 20px;
+}
+.sectionProjetos>.tamanhoCard>.cards>.projeto1{
+    width: 100%;
+    height: 100%;
+    background-image: url(/src//assets/projeto1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sectionProjetos>.tamanhoCard>.cards>.projeto2{
+    width: 100%;
+    height: 100%;
+    background-image: url(/src//assets/projeto2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sectionProjetos>.tamanhoCard>.cards>.card{
+    width: 300px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px inset #7843E9;
+}
+
+
+.sectionProjetos>.tamanhoCard>.cards>.card>.descricao{
+    width: 100%;
+    height: 100%;
+    background-color: #7843e9d2;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sectionProjetos>.tamanhoCard>.cards>.card:hover>.descricao{
+    transition: all 2s ease-in-out;
+    display: flex;
+}
+
+.sectionProjetos>.tamanhoCard>.cards>.card>.descricao>p{
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.sectionProjetos>.tamanhoCard>.cards>.card>.descricao>a{
+    margin-top: 20px;
+    width: 70%;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 15px;
+    text-transform: uppercase;
+}
+.sectionProjetos>.tamanhoCard>.cards>.card>.descricao>a:hover{
+    color:#7843E9;
+    background-color: #fff;
+    transition: color 0.5s ease-in-out , background-color 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sectionProjetos>p{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionProjetos>p>a{
+    color: #7843E9;
+    font-weight: 700;
+    text-decoration: none;
+}

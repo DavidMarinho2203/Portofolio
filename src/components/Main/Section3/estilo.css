@@ -1,0 +1,117 @@
+.Section3 {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: #111111;
+}
+
+.sectionMeConhecer {
+    width: 90vw;
+    margin: 0 auto;
+    height: 80vh;
+    padding: 50px 0;
+    display: flex;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.sectionMeConhecer>.MeConhecer {
+    width: 50%;
+    height: 100%;
+    padding-left: 0;
+
+    margin-right: 50px;
+}
+
+.sectionMeConhecer>.MeConhecer>h3, .sectionMeConhecer>.MinhasHabilidades>h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.sectionMeConhecer>.MeConhecer>p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.sectionMeConhecer>.MeConhecer>a {
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #7843E9;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.sectionMeConhecer>.MeConhecer>a:hover{
+    background-color: #F0F0F0;
+    color: #7843E9;
+    border: 1px solid #7843E9;
+    transition: background-color 0.5s ease-in-out,color 0.5s ease-in-out,border 0.5s ease-in-out;
+}
+
+.sectionMeConhecer>.MinhasHabilidades {
+    width: 50%;
+}
+
+.sectionMeConhecer>.MinhasHabilidades>ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.sectionMeConhecer>.MinhasHabilidades>ul>li {
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+.sectionMeConhecer>.MinhasHabilidades>ul>li>a {
+    cursor: pointer;
+    color: #111111;
+    text-decoration: none;
+    padding: 5px 8px;
+    background-color: #E7E7E7;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.sectionMeConhecer>.MinhasHabilidades>ul>li>.html:hover {
+    background-color: #F74E07;
+}
+
+.sectionMeConhecer>.MinhasHabilidades>ul>li>.css:hover{
+    background-color: #2862E9;
+}
+
+.sectionMeConhecer>.MinhasHabilidades>ul>li>.algoritmo:hover {
+    background-color: #87CF34;
+}
+
+.sectionMeConhecer>.MinhasHabilidades>ul>li>.JavaScript:hover {
+    background-color: #F7E025;
+}
+
+.sectionMeConhecer>.MinhasHabilidades>ul>li>.ReactJS:hover {
+    background-color: #5ED3F3;
+}
+
+.sectionMeConhecer>.MinhasHabilidades>ul>li>.Git:hover {
+    background-color: #E84D31;
+}
+
+.sectionMeConhecer>.MinhasHabilidades>ul>li>.html:hover , .sectionMeConhecer>.MinhasHabilidades>ul>li>.css:hover , .sectionMeConhecer>.MinhasHabilidades>ul>li>.algoritmo:hover , .sectionMeConhecer>.MinhasHabilidades>ul>li>.JavaScript:hover , .sectionMeConhecer>.MinhasHabilidades>ul>li>.ReactJS:hover ,.sectionMeConhecer>.MinhasHabilidades>ul>li>.Git:hover  {
+    transition: background-color 0.5s ease-in-out;
+    color: #E7E7E7;
+    text-decoration: none;
+    cursor: pointer;
+}

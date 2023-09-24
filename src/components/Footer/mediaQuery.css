@@ -1,0 +1,379 @@
+/* Typical Device Breakpoints 
+------------------------------
+
+Pequenas telas: até 600px
+Celulares: 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grande telas: acima de 1200px
+*/
+
+
+/* Pequenas telas: até 600px */
+@media screen and (max-width: 600px) {
+    footer {
+        width: 100%;
+        background-color: #000;
+        height: 100%;
+        color: #fff;
+        font-family: 'Source Code Pro', monospace;
+        padding: 20px 0 0 ;
+    }
+    
+    footer>.informacao {
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border-bottom: 1px solid #fafafa69;
+    }
+    
+    footer>.informacao>.conteudo {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+    }
+    
+    footer>.informacao>.conteudo>h4 {
+        font-size: 22px;
+        margin: 0px 0 25px;
+    }
+    
+    footer>.informacao>.conteudo>p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    footer>.informacao>.social {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    footer>.informacao>.social>h4 {
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        margin: 10px 0 ;
+    }
+    
+    footer>.informacao>.social>div {
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    footer>.informacao>.social>div>a{
+        margin-right: 0px;
+        color: #fff;
+    }
+    
+    footer>.copy{
+        height: 10vh;
+        font-size: 12px;
+        width: 100%;
+        margin: 10px auto 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Celulares: 600px até 768px */
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    footer {
+        width: 100%;
+        background-color: #000;
+        height: 100%;
+        color: #fff;
+        font-family: 'Source Code Pro', monospace;
+        padding: 20px 0 0;
+    }
+    
+    footer>.informacao {
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #fafafa69;
+    }
+    
+    footer>.informacao>.conteudo {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+    
+    footer>.informacao>.conteudo>h4 {
+        font-size: 22px;
+        margin: 50px 0 25px;
+    }
+    
+    footer>.informacao>.conteudo>p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    footer>.informacao>.social {
+        width: 20%;
+        margin-bottom: 20px;
+        text-align: end;
+    }
+    
+    footer>.informacao>.social>h4 {
+        font-size: 22px;
+        margin: 50px 0 25px;
+    }
+    
+    footer>.informacao>.social>div {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
+    
+    footer>.informacao>.social>div>a{
+        margin-left: 15px;
+        margin-right: 0;
+        font-size: 16px;
+    }
+    
+    footer>.copy{
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Tablet: 768px até 992px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    footer {
+        width: 100%;
+        background-color: #000;
+        height: 100%;
+        color: #fff;
+        font-family: 'Source Code Pro', monospace;
+        padding: 20px 0 0;
+    }
+    
+    footer>.informacao {
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #fafafa69;
+    }
+    
+    footer>.informacao>.conteudo {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+    
+    footer>.informacao>.conteudo>h4 {
+        font-size: 24px;
+        margin: 50px 0 25px;
+    }
+    
+    footer>.informacao>.conteudo>p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    footer>.informacao>.social {
+        width: 20%;
+        margin-bottom: 20px;
+        text-align: end;
+    }
+    
+    footer>.informacao>.social>h4 {
+        font-size: 24px;
+        margin: 50px 0 25px;
+    }
+    
+    footer>.informacao>.social>div {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
+    
+    footer>.informacao>.social>div>a{
+        margin-left: 15px;
+        margin-right: 0;
+        font-size: 16px;
+    }
+    
+    footer>.copy{
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Desktop: 992px até 1200px */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    footer {
+        width: 100%;
+        background-color: #000;
+        height: 100%;
+        color: #fff;
+        font-family: 'Source Code Pro', monospace;
+        padding: 20px 0 0;
+    }
+    
+    footer>.informacao {
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #fafafa69;
+    }
+    
+    footer>.informacao>.conteudo {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+    
+    footer>.informacao>.conteudo>h4 {
+        font-size: 28px;
+        margin: 50px 0 25px;
+    }
+    
+    footer>.informacao>.conteudo>p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    
+    footer>.informacao>.social {
+        width: 20%;
+        margin-bottom: 20px;
+        text-align: end;
+    }
+    
+    footer>.informacao>.social>h4 {
+        font-size: 28px;
+        margin: 50px 0 25px;
+    }
+    
+    footer>.informacao>.social>div {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
+    
+    footer>.informacao>.social>div>a{
+        margin-left: 15px;
+        margin-right: 0;
+        font-size: 16px;
+    }
+    
+    footer>.copy{
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Grande telas: acima de 1200px */
+@media screen and (min-width: 1200px) {
+    footer {
+        width: 100%;
+        background-color: #000;
+        height: 100%;
+        color: #fff;
+        font-family: 'Source Code Pro', monospace;
+        padding: 20px 0 0;
+    }
+    
+    footer>.informacao {
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #fafafa69;
+    }
+    
+    footer>.informacao>.conteudo {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+    
+    footer>.informacao>.conteudo>h4 {
+        font-size: 28px;
+        margin: 50px 0 25px;
+    }
+    
+    footer>.informacao>.conteudo>p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    
+    footer>.informacao>.social {
+        width: 20%;
+        margin-bottom: 20px;
+        text-align: end;
+    }
+    
+    footer>.informacao>.social>h4 {
+        font-size: 28px;
+        margin: 50px 0 25px;
+    }
+    
+    footer>.informacao>.social>div {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
+    
+    footer>.informacao>.social>div>a{
+        margin-left: 15px;
+        margin-right: 0;
+        font-size: 16px;
+    }
+    
+    footer>.copy{
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

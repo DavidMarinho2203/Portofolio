@@ -1,0 +1,67 @@
+footer {
+    width: 100%;
+    background-color: #000;
+    height: 50vh;
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+}
+
+footer>.informacao {
+    height: 70%;
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fafafa69;
+}
+
+footer>.informacao>.conteudo {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+footer>.informacao>.conteudo>h4 {
+    font-size: 22px;
+    margin: 50px 0 25px;
+}
+
+footer>.informacao>.conteudo>p {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+footer>.informacao>.social {
+    width: 10%;
+}
+
+footer>.informacao>.social>h4 {
+    font-size: 22px;
+    margin: 50px 0 25px;
+}
+
+footer>.informacao>.social>div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer>.informacao>.social>div>a{
+    margin-right: 10px;
+    color: #fff;
+}
+
+footer>.informacao>.social>div>a:hover{
+    color:#7843E9;
+    transition: color 0.5s ease-in-out;
+}
+
+footer>.copy{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

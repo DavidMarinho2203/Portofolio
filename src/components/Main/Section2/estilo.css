@@ -1,0 +1,34 @@
+.sectionSobreMim {
+    background-color: #FAFAFA;
+    width: 100%;
+    height: 40vh;
+    font-family: 'Source Code Pro', monospace;
+    padding: 10vh 0;
+    box-shadow: 5px 5px 30px #00000046;
+    margin-bottom: 50px;
+}
+
+.sectionSobreMim>h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.sectionSobreMim>.traco {
+    width: 3vw;
+    height: 5px;
+    background-color: #7843E9;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.sectionSobreMim>p{
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    line-height: 30px;
+    
+}
