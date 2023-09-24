@@ -17,10 +17,7 @@ export default function Section3() {
                     <ul type='none'>
                         <li><a className='html' href='#'>Html5</a></li>
                         <li><a className='css'href='#'>CSS3</a></li>
-                        <li><a className='algoritmo'href='#'>Algoritmo</a></li>
                         <li><a className='JavaScript'href='#'>JavaScript</a></li>
-                        <li><a className='ReactJS'href='#'>React JS</a></li>
-                        <li><a className='Git'href='#'>Git</a></li>
                     </ul>
                 </div>
             </div>
