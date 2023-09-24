@@ -11,10 +11,10 @@ export default function Header () {
                     <a href='app.js'>David Beckham</a>
                 </div>
                 <menu className='areaMenu'>
-                    <a className='menuLink' href=''>Home</a>
+                    <a className='menuLink' href='index.js'>Home</a>
                     <a className='menuLink' href='#sobreMim'>Sobre</a>
                     <a className='menuLink' href='#projetos'>Projetos</a>
-                    <a className='menuLink' href=''>Contato</a>
+                    <a className='menuLink' href='#contato'>Contato</a>
                 </menu>
             </section>
         </header>
