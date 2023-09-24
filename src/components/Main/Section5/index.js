@@ -3,7 +3,7 @@ import './mediaQuery.css'
 
 export default function Section5() {
     return (
-        <section id='contato' className='containerChamarnoPrivado'>
+        <section className='containerChamarnoPrivado'>
             <div className='sectionChamarnoPrivado'>
                 <h3>Interessado nos meus serviços?</h3>
                 <p>Estou aberto a oportunidades de trabalho.</p>
