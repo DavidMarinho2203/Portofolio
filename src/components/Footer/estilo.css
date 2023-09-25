@@ -1,14 +1,17 @@
 footer {
     width: 100%;
     background-color: #000;
-    height: 50vh;
+    height: 100%;
     color: #fff;
     font-family: 'Source Code Pro', monospace;
+    box-shadow: 5px 5px 30px #00000091;
+    margin-top: 50px;
+    padding: 20px 0 0;
 }
 
 footer>.informacao {
-    height: 70%;
-    width: 90vw;
+    height: 100%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -16,12 +19,13 @@ footer>.informacao {
 }
 
 footer>.informacao>.conteudo {
-    width: 40%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    margin-bottom: 20px;
 }
 
 footer>.informacao>.conteudo>h4 {
@@ -45,22 +49,24 @@ footer>.informacao>.social>h4 {
 
 footer>.informacao>.social>div {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
+    width: 100%;
 }
 
-footer>.informacao>.social>div>a{
-    margin-right: 10px;
+footer>.informacao>.social>div>a {
+    margin-right: 0px;
+    margin-left: 15px;
     color: #fff;
 }
 
-footer>.informacao>.social>div>a:hover{
-    color:#7843E9;
+footer>.informacao>.social>div>a:hover {
+    color: #7843E9;
     transition: color 0.5s ease-in-out;
 }
 
-footer>.copy{
-    height: 30%;
+footer>.copy {
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;

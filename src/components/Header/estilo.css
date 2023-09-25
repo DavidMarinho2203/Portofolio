@@ -19,7 +19,7 @@ header>.areaTopo {
 
 header>.areaTopo>.areaLogo {
     width: 30%;
-    height: 100%;
+    height: 70%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -49,12 +49,12 @@ header>.areaTopo>.areaLogo>a:hover {
 
 header>.areaTopo>.areaMenu {
     width: 30%;
-    height: 100%;
+    height: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    margin-right: 50px;
+    margin-right: 0px;
 }
 
 header>.areaTopo>.areaMenu>.menuLink {

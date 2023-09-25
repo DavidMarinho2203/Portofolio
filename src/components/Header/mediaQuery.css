@@ -6,15 +6,10 @@
 @media screen and (max-width: 599px) {
     header {
         height: 20vh;
-        position: fixed;
-        z-index: 1;
-        top: 0;
     }
 
     header>.areaTopo {
         width: 100vw;
-        height: 100%;
-        margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -33,9 +28,6 @@
     }
 
     header>.areaTopo>.areaLogo>img {
-        height: 70%;
-        border-radius: 100%;
-        margin-right: 10px;
         display: none;
     }
 
@@ -50,7 +42,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 5px;
         margin-right: 50px;
         border-top: 1px solid #111111;
         margin: 10px auto 0;
@@ -65,16 +56,11 @@
 @media screen and (min-width: 600px) and (max-width: 768px) {
     header {
         height: 10vh;
-        position: fixed;
-        z-index: 1;
-        top: 0;
         transition: all 0.5s ease-in-out;
     }
 
     header>.areaTopo {
         width: 100vw;
-        height: 100%;
-        margin: 0 auto;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -112,7 +98,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 5px;
         margin-right: 0px;
         transition: all 0.5s ease-in-out;
     }
@@ -126,17 +111,11 @@
 /* Tablet: 768px até 992px */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     header {
-        height: 10vh;
-        position: fixed;
-        z-index: 1;
-        top: 0;
         transition: all 0.5s ease-in-out;
     }
 
     header>.areaTopo {
         width: 100vw;
-        height: 100%;
-        margin: 0 auto;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -147,7 +126,6 @@
 
     header>.areaTopo>.areaLogo {
         width: 30%;
-        height: 70%;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -156,15 +134,8 @@
         transition: all 0.5s ease-in-out;
     }
 
-    header>.areaTopo>.areaLogo>img {
-        height: 100%;
-        border-radius: 100%;
-        margin-right: 10px;
-    }
-
     header>.areaTopo>.areaLogo>a {
         font-size: 15px;
-        transition: all 0.5s ease-in-out;
     }
 
     header>.areaTopo>.areaMenu {
@@ -173,7 +144,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 5px;
         margin-right: 0px;
         transition: all 0.5s ease-in-out;
     }
@@ -187,17 +157,11 @@
 /* Desktop: 992px até 1200px */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     header {
-        height: 10vh;
-        position: fixed;
-        z-index: 1;
-        top: 0;
         transition: all 0.5s ease-in-out;
     }
 
     header>.areaTopo {
         width: 90vw;
-        height: 100%;
-        margin: 0 auto;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -208,18 +172,11 @@
 
     header>.areaTopo>.areaLogo {
         width: 30%;
-        height: 70%;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
         padding: 0px;
-    }
-
-    header>.areaTopo>.areaLogo>img {
-        height: 100%;
-        border-radius: 100%;
-        margin-right: 10px;
     }
 
     header>.areaTopo>.areaLogo>a {
@@ -232,7 +189,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 5px;
         margin-right: 0px;
         transition: all 0.5s ease-in-out;
     }
@@ -245,17 +201,10 @@
 /* Grande telas: acima de 1200px */
 @media screen and (min-width: 1200px) {
     header {
-        height: 10vh;
-        position: fixed;
-        z-index: 1;
-        top: 0;
         transition: all 0.5s ease-in-out;
     }
 
     header>.areaTopo {
-        width: 90vw;
-        height: 100%;
-        margin: 0 auto;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -264,20 +213,13 @@
     }
 
     header>.areaTopo>.areaLogo {
-        width: 20%;
-        height: 70%;
+        width: 30%;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
         padding: 0px;
         transition: all 0.5s ease-in-out;
-    }
-
-    header>.areaTopo>.areaLogo>img {
-        height: 100%;
-        border-radius: 100%;
-        margin-right: 10px;
     }
 
     header>.areaTopo>.areaLogo>a {
@@ -291,7 +233,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 5px;
         margin-right: 0px;
         transition: all 0.5s ease-in-out;
     }
