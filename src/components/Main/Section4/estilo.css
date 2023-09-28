@@ -10,14 +10,19 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.sectionProjetos>.conteudo{
+    text-align: center;
 }
 
 .sectionProjetos>.conteudo>h2 {
     width: 100%;
     font-size: 32px;
-    text-align: center;
     margin-bottom: 10px;
     font-weight: 800;
+    transition: all 0.5s ease-in-out;
 }
 
 
@@ -28,19 +33,21 @@
     margin: 0 auto;
     border-radius: 10px;
     margin-bottom: 20px;
+    transition: all 0.5s ease-in-out;
 }
 
 .sectionProjetos>.conteudo>p {
-    text-align: center;
     margin: 0 auto;
     width: 70%;
     line-height: 30px;
     font-size: 15px;
+    transition: all 0.5s ease-in-out;
 }
 
 .sectionProjetos>.tamanhoCard {
     width: 80vw;
     margin: 10px auto;
+    transition: all 0.5s ease-in-out;
 }
 
 .sectionProjetos>.tamanhoCard>.cards {
@@ -55,6 +62,7 @@
     column-gap: 40px;
     row-gap: 10px;
     padding: 0px;
+    transition: all 0.5s ease-in-out;
 }
 
 .sectionProjetos>.tamanhoCard>.cards>.projeto1 {
@@ -64,6 +72,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
 }
 
 .sectionProjetos>.tamanhoCard>.cards>.projeto2 {
@@ -82,6 +91,7 @@
     justify-content: center;
     align-items: center;
     border: 3px inset #7843E9;
+    transition: all 0.5s ease-in-out;
 }
 
 
@@ -93,10 +103,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all 0.5s ease-in-out;
 }
 
 .sectionProjetos>.tamanhoCard>.cards>.card:hover>.descricao {
-    transition: all 2s ease-in-out;
+    transition: all 0.5s ease-in-out;
     display: flex;
 }
 
@@ -106,6 +117,7 @@
     text-align: center;
     color: #fff;
     text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
 }
 
 .sectionProjetos>.tamanhoCard>.cards>.card>.descricao>a {
@@ -118,12 +130,13 @@
     color: #fff;
     padding: 5px 15px;
     text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
 }
 
 .sectionProjetos>.tamanhoCard>.cards>.card>.descricao>a:hover {
     color: #7843E9;
     background-color: #fff;
-    transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .sectionProjetos>p {
@@ -132,6 +145,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.5s ease-in-out;
 }
 
 .sectionProjetos>p>a {

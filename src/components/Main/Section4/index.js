@@ -11,7 +11,7 @@ export default function Section4() {
                 <h2>Projetos</h2>
                 <div className='traco'></div>
                 <p>Aqui você encontrará alguns dos projetos pessoais e de clientes que criei, cada projeto contendo seu próprio estudo de caso.</p>
-
+                <p><strong>Passe o mouse cima do projeto ou caso esteja no Mobile, pode clicar!</strong></p>
             </div>
 
 

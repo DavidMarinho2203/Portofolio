@@ -15,7 +15,6 @@ Grande telas: acima de 1200px
         font-size: 20px;
     }
 
-
     .sectionProjetos>.conteudo>.traco {
         width: 10vw;
     }
@@ -39,7 +38,7 @@ Grande telas: acima de 1200px
 }
 
 /* Celulares: 600px até 768px */
-@media screen and (min-width: 600px) and (max-width: 768px) {
+@media screen and (min-width: 599px) and (max-width: 768px) {
 
     .sectionProjetos>.conteudo>h2 {
         font-size: 22px;
@@ -144,6 +143,7 @@ Grande telas: acima de 1200px
     .sectionProjetos>.tamanhoCard {
         width: 90%;
     }
+
     .sectionProjetos>p {
         font-size: 15px;
     }

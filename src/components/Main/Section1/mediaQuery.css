@@ -1,5 +1,5 @@
 /* Pequenas telas: até 600px */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
     .section-home {
         height: 80vh;
         margin-top: 20vh;
@@ -35,7 +35,10 @@
 
 /* Celulares: 600px até 768px */
 @media screen and (min-width: 600px) and (max-width: 768px) {
-
+    .section-home {
+        height: 90vh;
+        margin-top: 10vh;
+    }
     .section-home>.conteudo {
         width: 60%;
         display: flex;
