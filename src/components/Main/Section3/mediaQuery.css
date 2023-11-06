@@ -9,7 +9,7 @@ Grande telas: acima de 1200px
 */
 
 /* Pequenas telas: até 600px */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
 
     .sectionMeConhecer {
         width: 100vw;
@@ -170,7 +170,7 @@ Grande telas: acima de 1200px
 }
 
 /* Tablet: 768px até 992px */
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 992px) {
 
     .sectionMeConhecer>.MeConhecer>h3 {
         width: 100%;
@@ -234,7 +234,7 @@ Grande telas: acima de 1200px
 }
 
 /* Desktop: 992px até 1200px */
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 993px) and (max-width: 1200px) {
 
     .sectionMeConhecer>.MeConhecer>h3 {
         width: 100%;
@@ -298,7 +298,7 @@ Grande telas: acima de 1200px
 }
 
 /* Grande telas: acima de 1200px */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1201px) {
 
 
     .sectionMeConhecer>.MeConhecer>p {

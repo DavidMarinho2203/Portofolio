@@ -9,7 +9,7 @@ Grande telas: acima de 1200px
 */
 
 /* Pequenas telas: até 600px */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
 
     .sectionProjetos>.conteudo>h2 {
         font-size: 20px;
@@ -38,7 +38,7 @@ Grande telas: acima de 1200px
 }
 
 /* Celulares: 600px até 768px */
-@media screen and (min-width: 599px) and (max-width: 768px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
 
     .sectionProjetos>.conteudo>h2 {
         font-size: 22px;
@@ -56,6 +56,10 @@ Grande telas: acima de 1200px
         line-height: 20px;
     }
 
+    .sectionProjetos>.conteudo>.conteudoMenor768px{
+        display: block;
+    }
+
     .sectionProjetos>.tamanhoCard {
         width: 90%;
     }
@@ -66,7 +70,7 @@ Grande telas: acima de 1200px
 }
 
 /* Tablet: 768px até 992px */
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 992px) {
 
     .sectionProjetos>.conteudo>h2 {
         font-size: 24px;
@@ -84,6 +88,10 @@ Grande telas: acima de 1200px
         line-height: 24px;
     }
 
+    .sectionProjetos>.conteudo>.conteudoMaior768px{
+        display: block;
+    }
+
     .sectionProjetos>.tamanhoCard {
         width: 90%;
     }
@@ -94,7 +102,7 @@ Grande telas: acima de 1200px
 }
 
 /* Desktop: 992px até 1200px */
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 993px) and (max-width: 1200px) {
 
     .sectionProjetos>.conteudo>h2 {
         font-size: 28px;
@@ -122,7 +130,7 @@ Grande telas: acima de 1200px
 }
 
 /* Grande telas: acima de 1200px */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1201px) {
 
     .sectionProjetos>.conteudo>h2 {
         font-size: 32px;
