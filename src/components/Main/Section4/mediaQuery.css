@@ -26,6 +26,10 @@ Grande telas: acima de 1200px
         font-size: 12px;
     }
 
+    .sectionProjetos>.conteudo>.conteudoMenor768px{
+        display: block;
+    }
+
     .sectionProjetos>.tamanhoCard {
         width: 90%;
     }
@@ -120,6 +124,10 @@ Grande telas: acima de 1200px
         line-height: 26px;
     }
 
+    .sectionProjetos>.conteudo>.conteudoMaior768px{
+        display: block;
+    }
+
     .sectionProjetos>.tamanhoCard {
         width: 90%;
     }
@@ -146,6 +154,10 @@ Grande telas: acima de 1200px
         margin: 0 auto 10px;
         width: 50%;
         line-height: 30px;
+    }
+
+    .sectionProjetos>.conteudo>.conteudoMaior768px{
+        display: block;
     }
 
     .sectionProjetos>.tamanhoCard {
