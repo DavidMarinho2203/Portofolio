@@ -44,6 +44,20 @@
     transition: all 0.5s ease-in-out;
 }
 
+.sectionProjetos>.conteudo>.conteudoMaior768px , .sectionProjetos>.conteudo>.conteudoMenor768px{
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.sectionProjetos>.conteudo>.conteudoMaior768px{
+    display: none;
+}
+
+.sectionProjetos>.conteudo>.conteudoMenor768px{
+    display: none;
+}
+
 .sectionProjetos>.tamanhoCard {
     width: 80vw;
     margin: 10px auto;
